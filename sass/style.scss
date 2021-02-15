@@ -10,6 +10,7 @@
 
 $turquoise: #9CEEDA;
 $black: #333;
+$white: #fff;
 
 $purple: #8A4D76;
 $pink: #FA7C91;
@@ -40,6 +41,10 @@ $weight-bold: 900;
 ////////////////
 
 $body-background-color: $turquoise;
+$navbar-background-color: $primary;
+$navbar-height: 5rem;
+$navbar-item-img-max-height: 4rem;
+$navbar-item-color: $white;
 
 $control-border-width: 2px;
 

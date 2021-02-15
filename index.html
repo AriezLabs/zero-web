@@ -6,23 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zero</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/addons.css">
   </head>
   <body>
+    <nav class="navbar mb-6" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="resources/logo.png" alt="Bulma">
+          </a>
+          <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-end">
+            <a class="navbar-item">
+              Blog
+            </a>
+            <a class="navbar-item">
+              GitHub
+            </a>
+          </div>
+          <!--
+          <div class="navbar-item">
+            <a class="image is-24x24">
+              <img src="resources/GitHub-Mark-120px-plus.png" alt="Bulma">
+            </a>
+          </div>
+          -->
+        </div>
+      </div>
+    </nav>
+
+    <p class="mb-tons is-hidden-mobile"\>
     <div class="container">
       <div class="tile is-ancestor">
-        <div class="tile is-parent columns is-desktop is-vcentered">
+        <div class="tile is-parent mx-2 columns is-desktop is-vcentered">
           <article class="tile is-child has-text-right">
             <h1 class="title is-size-1 has-text-weight-bold">
-              21st century diabetes care.
+              21ST CENTURY DIABETES CARE.
             </h1>
             <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              <p>Zero is your one-stop shop for handling diabetes day-to-day. It helps you  count carbs quickly, keeps track of  your CGM scans and eating habits,  and presents your data beautifully for detailed analysis.</p>
             </div>
           </article>
         </div>
         <div class="tile is-parent">
           <article class="tile is-child">
-            <figure class="image pt-6">
+            <figure class="image">
               <img src="resources/phones.png">
             </figure>
           </article>
@@ -51,4 +87,5 @@
       </div>
     </div>
   </body>
+  <script src="js/navbar.js"></script>
 </html>
